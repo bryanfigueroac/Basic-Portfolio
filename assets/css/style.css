@@ -24,8 +24,9 @@ body {
     clear: both;
     padding-bottom: 50px;
     margin-top: 50px;
+    
 }
-.footer2{
+.footer2 {
     background: #fff;
     padding-right: 40px;
     width: 100%;
@@ -33,6 +34,12 @@ body {
     border: 1px solid black;
     text-align: center;
     clear: both;
+    margin-top: -20px;
+}
+a {
+    color: #777777;
+    text-decoration: none;
+    padding-left: 20px;
 }
     #name {
     float: left;
@@ -60,7 +67,7 @@ image {
     padding-right: 30px;
     margin-left: 200px;
     margin: 0 auto;
-
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 .links{
     text-align: right;
@@ -86,4 +93,15 @@ image {
     margin-bottom: 30px;
     margin-top: 20px;
     color: white;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
